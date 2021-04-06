@@ -1,0 +1,68 @@
+.menuHeader{
+    height: 40px;
+    background: #fff;
+    /* border-bottom: 1px solid #cecece; */
+}
+.menuHeader ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menuHeader > ul{
+    display: flex;
+    /* margin: 0 50px; */
+    position: relative;
+}
+
+.menuHeader > ul > li > span{
+    width: fit-content;
+    display: inline-block;
+    line-height: 40px;
+    cursor: pointer;
+    /* padding: 0px 20px; */
+    margin-left: -20px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menuHeader > ul > li > span:hover{
+    color: #FF527B;
+}
+.menuHeader > ul > li > ul{
+    position: absolute;
+    background: #fff;
+    width: 1000px;
+    right: 0;
+    left: 10px;
+    /* bottom: -340px; */
+    /* top: 60px; */
+    display: none;
+    /* padding: 30px 30px; */
+    padding: 0px 30px;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    z-index: 1;
+}
+.menuHeader > ul > li:hover ul{
+    display: block;
+}
+.menuHeader > ul > li > ul > li{
+    margin: 0 20px;
+    min-width: 130px;
+    min-height: 120px;
+}
+.menuHeader > ul > li > ul > li{
+    float: left;
+}
+.menuHeader > ul > li > ul > li > a{
+    font-weight: bold;
+    display: block;
+}
+.menuHeader > ul > li > ul > li a{
+    padding: 3px 0;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: #707070;
+}

@@ -1,0 +1,177 @@
+.header{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.12);
+/* -webkit-box-shadow: 7px 18px 38px -2px rgba(0,0,0,0.22);
+-moz-box-shadow: 7px 18px 38px -2px rgba(0,0,0,0.22);
+box-shadow: 7px 18px 38px -2px rgba(0,0,0,0.22); */
+}
+.subHeader{
+  max-width: 1100px;
+  /* width: 100%; */
+  height: 81px;
+  display: flex;
+  /* margin: 0 auto;    */
+  align-items: center;
+}
+
+.logo{
+  width: 137px;
+  height: 137px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-left: 30px; */
+  /* align-items: flex-end; */
+}
+.logo .logoimage{
+  width: 100%;
+  height: 100%;
+}
+/* .exploreText{ 
+    font-size: 10px;
+    font-style: italic; 
+} */
+.iconTexts{ 
+    font-size: 10px; 
+    margin: 0 2px; 
+    /* text-transform: capitalize; */
+    /* font-style: italic; */
+    color: black;
+    /* margin-top: -3px; */
+    font-weight: bold;
+  }
+/* .logo .goldenStar{
+    width: 10px;
+    height: 10px;
+} */
+
+.searchInputContainer {
+    /* width: 371px; */
+    width: fit-content;
+    position: relative;
+    background:#FFFFFF;
+    height: 41px;
+    border-radius: 1px;
+    overflow: hidden;
+    display: flex;
+    /* margin-inline-start: 600px; */
+    border: #F5F5F6 solid 1px;
+    /* align-content: flex-end ; */
+    justify-content: flex-end;
+  }
+  .searchIconContainer {
+    width: fit-content;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background:#FFFFFF;
+    justify-content: flex-end;
+  }
+.searchInput {
+    /* width: fit-content; */
+    width: 271px;
+    border: 0;
+    margin-top: 2px;
+    height: 36px;
+    background:#FFFFFF;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    justify-content: flex-end;
+  }
+
+  .rightMenu{
+    width: fit-content;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: -200px;
+    /* margin-left: -200px; */
+    align-items: center;
+    
+  }
+  .iconImage{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 4px;
+   
+  }
+.loginButton {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    color: #2874f0;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.more, .fullName {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+.cart {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px
+  }
+
+.authContainer{
+  color: #212121;
+  margin: 0 auto;
+  border-radius: 2px;
+  height: 528px;
+  max-width: 750px;
+  min-width: 650px;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+}
+
+.leftspace{
+  width: 40%;
+  height: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  background-image: url('../../images/login-image.png');
+  background-color: #2874f0;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  padding: 40px 33px;
+  box-sizing: border-box;
+}
+
+.rightspace{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginInputContainer{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin: 40px 0;
+}
