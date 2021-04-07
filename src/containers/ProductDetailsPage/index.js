@@ -8,6 +8,8 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import { MaterialButton } from "../../components/MaterialUI";
 import "./style.css";
 import { addToCart } from "../../actions";
+import { IoIosSearch } from "react-icons/io";
+import { FaShuttleVan } from "react-icons/fa";
 
 /**
  * @author
@@ -128,10 +130,39 @@ const ProductDetailsPage = (props) => {
                 icon={<AiFillThunderbolt />}
               />
               </div>
+              <br></br>
               
+              <br></br>
               <span className="price">
-                DELIVERY OPTIONS
+                DELIVERY OPTIONS 
+                <FaShuttleVan
+                  style={{
+                    marginLeft:"25px"
+                  }}
+                />
               </span>
+              {/* search component */}
+        <div
+          style={{
+            padding: "0 10px",
+          }}
+        >
+          <div className="searchInputPin">
+            
+            <input
+              className="searchInput"
+              placeholder={110025}
+            />
+            <div className="searchIconContainer">
+              <a href="https://hackerramp-myntra-locator.herokuapp.com" style={{textDecoration:"none"}}>CHECK</a>   
+            </div>
+          </div>
+        </div>
+        {/* search component ends here */}
+        <p style={{ display: "flex",
+                    fontSize: "12px",
+                    color: "#878787",}}>
+                      Please enter PIN code to check delivery time & Pay on Delivery Availability or to check Availability in nearby Myntra Store</p>
               <p style={{ display: "flex" }}>
                 <span
                   style={{
