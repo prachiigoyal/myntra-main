@@ -111,3 +111,33 @@
     display: flex;
     align-items: center;
 }
+
+.searchInput {
+    /* width: fit-content; */
+    width: 271px;
+    border: 0;
+    margin-top: 2px;
+    height: 36px;
+    background:#FFFFFF;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    justify-content: flex-end;
+  }
+
+  .searchInputPin {
+    /* width: 371px; */
+    width: fit-content;
+    position: relative;
+    background:#FFFFFF;
+    height: 41px;
+    border-radius: 1px;
+    overflow: hidden;
+    display: flex;
+    /* margin-inline-start: 600px; */
+    border: #7e7e7e solid 1px;
+    /* align-content: flex-end ; */
+    justify-content: flex-end;
+  }
