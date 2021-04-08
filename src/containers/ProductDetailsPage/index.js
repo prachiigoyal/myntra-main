@@ -193,3 +193,4 @@ const ProductDetailsPage = (props) => {
 };
 
 export default ProductDetailsPage;
+
